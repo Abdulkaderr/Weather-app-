@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+
+}
+
+.not-found{
+    display: none;
+}
+
+.weather-img {
+    width: 150px; 
+    height: auto; 
+    margin-bottom: 20px;
+padding: auto;
+background-color: #9ee0d8;
+}
+
+
+
+main {
+    background-image: url('/public/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+.weather-information {
+    margin-top: 20px;
+}
+
+.city-name, .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.current-date {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.temperature {
+    font-size: 48px;
+    color: #ff9900;
+    margin-bottom: 10px;
+}
+
+.condition {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.humidity, .wind-speed {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.not-found {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.not-found h1 {
+    color: #ff3333;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.not-found img {
+    width: 200px;
+    height: auto;
+}
+
+.show-error {
+    display: block;
+}
+
+
+
