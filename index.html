@@ -4,38 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Weather</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 <link rel="stylesheet" href="/public/style.css">
 </head>
 <body>
 <main>
-    <div class="box-container">
-        <section class="search-section">
-            <h1 class="title">Welcome To Live Weather</h1>
-                <input type="text" placeholder="Enter name the city Ex: damascus" id="search-input" value="Amsterdam" >
-            <button type="button" name="search-bn" id="search-btn">Search</button>
-            
-        </section>
-        <section class="weather-information">
-<h1 class="city-name">Amsterdam</h1>
-<h2 class="current-date">thu, 20 Nov</h2>
-
-<img class="weather-img" src="public/assets/weather/clear.svg" alt="weather-img">
-     <h2 class="temperature">24 C</h2>
-     <h3 class="condition">clouds</h3>
-<h3 class="humidity">34%</h3>  
-     <h3 class="wind-speed">10 M/s</h3>
-</section>
-<section class="not-found" >
-<h1>The city you are looking for it's not exist</h1>
-<img src="public\assets\message\search-city.png" alt="">
-</section>
+    
+ 
+  <div id="app-root">
 
     </div>
 </main>
 </body>
-<script src="script.js"></script>
-<script src="src/app.js"></script>
-<script src="src/constans.js"></script>
+<script type="module" src="src/app.js"></script>
+<!-- <script type="module" src="src/app.js"></script> -->
 
 
 </html>
